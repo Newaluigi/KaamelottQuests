@@ -244,7 +244,7 @@ The menu burger open the menu on front with glassmorphism, and the hover on the 
 <img src='/src/assets/readme/burger.jpg' alt="screen burger">
 </p>
 
-#### Tournament selection
+#### Knights page
 On the header of this page you can see a countdown to the next tournament with a R2D2 body and a funny ad.
 <br />
 <br />
@@ -270,7 +270,7 @@ At the end of the page there is a section with fun facts
 <img src='/src/assets/readme/tourlist-actu.jpg' alt="screen tournament list">
 </p>
 
-#### Character selection
+#### Quests page
 On this page the user can select his character, this one will be saved on the current tournament page.
 There is an hover effect that change opacity.
 <br />
@@ -279,7 +279,7 @@ There is an hover effect that change opacity.
 <img src='/src/assets/readme/character.jpg' alt="screen character selection">
 </p>
 
-#### Game
+#### Contact & Team
 At the begining we wanted to create a race game but because of the lack of time we produced a space invaders-like. The background change, you have one life to succeed.
 <br />
 <p align="center"> 
@@ -289,19 +289,6 @@ If the player lose there is a game over message, if he win it actualize the tour
 <br />
 <p align="center"> 
 <img src='/src/assets/readme/game2.jpg' alt="screen game">
-</p>
-
-
-#### Tournament bracket
-On this dynamic page the bracket keep the character player and you can simulate each turn with the specific button.
-<br />
-<br />
-<p align="center"> 
-<img src='/src/assets/readme/tournamentbracket.jpg' alt="screen current tournament">
-</p>
-<br />
-<p align="center"> 
-<img src='/src/assets/readme/tournamentbracket2.jpg' alt="screen current tournament">
 </p>
 
 
