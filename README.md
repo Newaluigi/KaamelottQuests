@@ -1,6 +1,6 @@
 <div align='center'>
     <h1 id="top"><b>:crossed_swords: Kaamelott Quests :crossed_swords:</b></h1>
-    <img src='src/assets/readme/main.jpg' width='250' height='250' />
+    <img src='src/assets/images/logo.png'  />
     <p>WCS PROJECT [Hackathon #2]</b></p>
 
 ![Size](https://img.shields.io/github/languages/code-size/Newaluigi/KaamelottQuests.svg)
@@ -56,7 +56,11 @@ It's a front project, there is no back-end, so some random features are fake for
 
 * Style : ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
-* Framework : ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+* Framework Front : ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+
+* Framework Back : ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+
+* Database :
 
 * Design : ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
 
