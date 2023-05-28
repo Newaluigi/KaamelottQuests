@@ -99,8 +99,7 @@ Example of the tournament list page :
 
 | Font             | Ref                                                                |
 | ----------------- | ------------------------------------------------------------------ |
-| main-font | **fontStarWars** |
-| title-font | **fontStarWars** |
+| main-font | **Eagle Lake** |
 
 <br />
 
@@ -120,7 +119,7 @@ https://github.com/Miadil/starwars-api
 1. clone the repo
 
 ```
-git clone https://github.com/Newaluigi/Game_Date_Match.git
+git clone https://github.com/Newaluigi/KaamelottQuests.git
 ```
 
 2. cd into cloned repo
@@ -221,9 +220,9 @@ In this repository the game is in /Star-Wars-Invaders, but for runing th eprojec
 ## 🔎 **SHOWCASE**
 
 ### Key features
-* Animated homepage
-* Menu burger
-* Interractive tournament bracket
+* Connexion page
+* Homepage with animation
+* 
 * Gallery with API
 * Game
 * List of tournaments with a countdown
