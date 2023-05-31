@@ -89,7 +89,7 @@ Example of the tournament list page :
 | Color             | Hex                                                                |
 | ----------------- | ------------------------------------------------------------------ |
 | background-color | ![#000000](https://via.placeholder.com/10/000000?text=+) #000000 |
-| main-color | ![#ffe81f](https://via.placeholder.com/10/ffe81f?text=+) #ffe81f |
+| main-color | ![#64172A](https://via.placeholder.com/10/64172A?text=+) #64172A |
 | lightsaber-color | ![#ff0000](https://via.placeholder.com/10/ff0000?text=+) #ff0000 |
 
 
