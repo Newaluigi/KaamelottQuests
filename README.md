@@ -39,10 +39,10 @@
 
 ## 🐔 **ABOUT THE PROJECT**
 
-48 hours in team to discover and understand 𝗥𝗲𝗮𝗰𝘁, consuming an 𝗔𝗣𝗜 and build a website. The topic was Starwars universe and the consumption of an API with star war's characters. Initially the subject was about love encounter, but as we had already did love application for on the previous project we decided to produced about sport encounters, so in starwars the main one is pod racing tournament.
+24 hours in team to discover how to create a site with a little back-end.The topic was to bring a modern service to an history era. We chose the medieval times, and our site had the goal to bring a new digital tool to the knights of the round table (in Kaamelott's universe), in order that they can find more efficiently their quests without having to go to the tavern first...
 <br />
 <br />
-It's a front project, there is no back-end, so some random features are fake for the presentation.
+For this project we create a little database and a begining of a CRUD.
 
 <br />
 
@@ -135,7 +135,7 @@ cd repo
 npm install
 ```
 #### Specific packages on the project
-* react-h5-audio-player
+* 
 
 ### Getting Started with Create React App :
 
@@ -222,7 +222,7 @@ In this repository the game is in /Star-Wars-Invaders, but for runing th eprojec
 ### Key features
 * Connexion page
 * Homepage with animation
-* 
+* Database with 2 tables
 * Gallery with API
 * Game
 * List of tournaments with a countdown
@@ -234,13 +234,13 @@ In this repository the game is in /Star-Wars-Invaders, but for runing th eprojec
 <br />
 
 #### Homepage
-The homepage is simple but catchy : the site open with the music of starwars and the classic landing with the scrolling text of introduction.
+You begin the experience with a login page.
 <br />
 <br />
 <p align="center"> 
 <img src='/src/assets/readme/home.jpg' alt="screen home">
 </p>
-The menu burger open the menu on front with glassmorphism, and the hover on the li start a lightsaber effect.
+On the homepage you have a little animation of Excalibur and the navbar present on every page as well on the right side with the logo of the Kaamelott TV show
 <br />
 <br />
 <p align="center"> 
@@ -254,19 +254,19 @@ On the header of this page you can see a countdown to the next tournament with a
 <p align="center"> 
 <img src='/src/assets/readme/tourlist-header.jpg' alt="screen tournament list">
 </p>    
-The main section of the page is composed with the cards of all the tournaments where you can see the details of the tournament.
+ppppp
 <br />
 <br />
 <p align="center"> 
 <img src='/src/assets/readme/tourlist-card1.jpg' alt="screen tournament list">
 </p>
-On the card you have a button to particpate and select your character, with a sound of R2D2 on the onclick.
+nnnnnn
 <br />
 <br />
 <p align="center"> 
 <img src='/src/assets/readme/tourlist-card2.jpg' alt="screen tournament list">
 </p>
-At the end of the page there is a section with fun facts
+----s
 <br />
 <br />
 <p align="center"> 
@@ -274,8 +274,7 @@ At the end of the page there is a section with fun facts
 </p>
 
 #### Quests page
-On this page the user can select his character, this one will be saved on the current tournament page.
-There is an hover effect that change opacity.
+Here we have all the quests of the database, and we can oen a modal with more details for each of them
 <br />
 <br />
 <p align="center"> 
@@ -283,7 +282,7 @@ There is an hover effect that change opacity.
 </p>
 
 #### Contact & Team
-At the begining we wanted to create a race game but because of the lack of time we produced a space invaders-like. The background change, you have one life to succeed.
+At the end of the navbar there are two bonus page : the presentation of the knights of the SQL table with a little animation that reveal the social links of each and the contact page with a little cool sound effect
 <br />
 <p align="center"> 
 <img src='/src/assets/readme/game1.jpg' alt="screen game">
@@ -324,7 +323,9 @@ If the player lose there is a game over message, if he win it actualize the tour
 * User connexion effective
 * Contact form effective
 * Add Post method
+* Add one picture for each quest or a more generic logo
 * Add a possibility to attibute one quest to a knight
+* Add more sound effects like the generic music
 
 <br />
 
