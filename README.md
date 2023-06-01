@@ -11,7 +11,7 @@
 </div>
 
  <p align="center">
-    <a href="https://newaluigi.github.io/Intergalactic-tournament/"><strong>Explore the website »</strong></a>
+    <a href="https://newaluigi.github.io/KaamelottQuests/"><strong>Explore the website »</strong></a>
     <br />
     <br />
     <a href="https://newaluigi.github.io/KaamelottQuests.svg/issues">Report Bug</a>
@@ -80,7 +80,6 @@ For this project we create a little database and a begining of a CRUD.
 
 ### Figma
 
-Example of the tournament list page :
 <br />
 <img src='src/assets/readme/figma.jpg'  />
 
@@ -88,9 +87,8 @@ Example of the tournament list page :
 
 | Color             | Hex                                                                |
 | ----------------- | ------------------------------------------------------------------ |
-| background-color | ![#000000](https://via.placeholder.com/10/000000?text=+) #000000 |
 | main-color | ![#64172A](https://via.placeholder.com/10/64172A?text=+) #64172A |
-| lightsaber-color | ![#ff0000](https://via.placeholder.com/10/ff0000?text=+) #ff0000 |
+| secondary-color | ![#ffffff](https://via.placeholder.com/10/ffffff?text=+) #ffffff |
 
 
 <br />
@@ -102,11 +100,6 @@ Example of the tournament list page :
 | main-font | **Eagle Lake** |
 
 <br />
-
-### API
-
-API shared for the hackathon :
-https://github.com/Miadil/starwars-api
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -127,15 +120,26 @@ git clone https://github.com/Newaluigi/KaamelottQuests.git
 ```
 cd repo
 ```
-### Dependencies :
 
 3. install dependencies
 
 ```
 npm install
 ```
-#### Specific packages on the project
-* 
+
+### Launch Back-end
+
+4. cd into cloned repoBACK
+
+```
+cd repoBACK
+```
+
+5. install dependencies
+
+```
+node index.js
+```
 
 ### Getting Started with Create React App :
 
@@ -208,11 +212,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
-### Game installation:
-
-In this repository the game is in /Star-Wars-Invaders, but for runing th eproject correcctly you need to move this flder outside the repository folder and launch the both. You can also find the repository of our teammate work with the game in one repository : https://github.com/wiwim51/Star-Wars-Invaders
-
-
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ---
@@ -223,9 +222,9 @@ In this repository the game is in /Star-Wars-Invaders, but for runing th eprojec
 * Connexion page
 * Homepage with animation
 * Database with 2 tables
-* Gallery with API
-* Game
-* List of tournaments with a countdown
+* Display of data on 2 front pages : Knights and Quests
+* Modal for further informations of data elements
+
 
 <br />
 
@@ -238,59 +237,48 @@ You begin the experience with a login page.
 <br />
 <br />
 <p align="center"> 
-<img src='/src/assets/readme/home.jpg' alt="screen home">
+<img src='/src/assets/readme/login.jpg' alt="screen login">
 </p>
 On the homepage you have a little animation of Excalibur and the navbar present on every page as well on the right side with the logo of the Kaamelott TV show
 <br />
 <br />
 <p align="center"> 
-<img src='/src/assets/readme/burger.jpg' alt="screen burger">
+<img src='/src/assets/readme/home.jpg' alt="screen home">
 </p>
 
 #### Knights page
-On the header of this page you can see a countdown to the next tournament with a R2D2 body and a funny ad.
+Here we have all the knights of the database, and we can open a new page with more details for each of them
 <br />
 <br />
 <p align="center"> 
-<img src='/src/assets/readme/tourlist-header.jpg' alt="screen tournament list">
+<img src='/src/assets/readme/knights.jpg' alt="screen knights">
 </p>    
-ppppp
-<br />
 <br />
 <p align="center"> 
-<img src='/src/assets/readme/tourlist-card1.jpg' alt="screen tournament list">
-</p>
-nnnnnn
-<br />
-<br />
-<p align="center"> 
-<img src='/src/assets/readme/tourlist-card2.jpg' alt="screen tournament list">
-</p>
-----s
-<br />
-<br />
-<p align="center"> 
-<img src='/src/assets/readme/tourlist-actu.jpg' alt="screen tournament list">
+<img src='/src/assets/readme/knight-detail.jpg' alt="screen knight details">
 </p>
 
 #### Quests page
-Here we have all the quests of the database, and we can oen a modal with more details for each of them
+Here we have all the quests of the database, and we can open a modal with more details for each of them
 <br />
 <br />
 <p align="center"> 
-<img src='/src/assets/readme/character.jpg' alt="screen character selection">
+<img src='/src/assets/readme/quests.jpg' alt="screen quests">
+</p>
+<br />
+<p align="center"> 
+<img src='/src/assets/readme/quest-detail.jpg' alt="screen quest details">
 </p>
 
 #### Contact & Team
 At the end of the navbar there are two bonus page : the presentation of the knights of the SQL table with a little animation that reveal the social links of each and the contact page with a little cool sound effect
 <br />
 <p align="center"> 
-<img src='/src/assets/readme/game1.jpg' alt="screen game">
+<img src='/src/assets/readme/contact.jpg' alt="screen contact">
 </p>
-If the player lose there is a game over message, if he win it actualize the tournament bracket.
 <br />
 <p align="center"> 
-<img src='/src/assets/readme/game2.jpg' alt="screen game">
+<img src='/src/assets/readme/team.jpg' alt="screen team">
 </p>
 
 
@@ -304,13 +292,16 @@ If the player lose there is a game over message, if he win it actualize the tour
 
 
 ### Back
-
+* CRUD integration
+* Connexion
 
 ### Modal
 
 
 ### CSS Tips
-* Lateral navbar
+* Lateral navbar :
+* Object animation :
+* Glassmorphism :
 
 <br />
 
@@ -320,7 +311,8 @@ If the player lose there is a game over message, if he win it actualize the tour
 
 ## 🔨 **GO FURTHER**
 
-* User connexion effective
+* Bug user connexion
+* Improve knight details css
 * Contact form effective
 * Add Post method
 * Add one picture for each quest or a more generic logo
